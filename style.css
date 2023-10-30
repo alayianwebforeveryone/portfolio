@@ -1,15 +1,16 @@
 
 body{
-  background-color: #8FAED9;
+  background-color: #f4fafc;
 }
-
 .menu{
- 
   height: 50px;
   background-color: white;
      
 }
-
+nav{
+  background-color: hwb(318 19% 10% / 0.827);
+  color: white;
+}
 .banner-img{
     height: 90%;
     width: 70%;
@@ -38,20 +39,17 @@ body{
     justify-content: center;
   }
 
-  .company h4{
-    /* margin-left: 200px; */
-  }
-
+ 
   .services-container{
     /* height: auto; */
-    background-color: #cbe7f7;
+    background-color: #f4fafc;
     padding-bottom: 40px;
   }
   .services{
     border: 1px solid white;
     border-radius: 20px;
-    color: white;
-    background-color: hwb(244 55% 18%);
+    color: black;
+    background-color: hsl(240, 60%, 98%);
   }
 .services-icon{
   height: 60px;
@@ -69,7 +67,7 @@ body{
 
 }
 #about{
-  background-color: #cfcef1;
+  background-color: #f4fafc;
 }
 
 
@@ -83,9 +81,13 @@ body{
 }
 /* =============================================================================portfolio======================================= */
 
+
+.heading-one{
+  color: hwb(286 3% 35% / 0.827);
+}
 .portfolio{
   /* height: 700px; */
-  background-color: hwb(244 55% 18%);
+  background-color: #f4fafc;
   border-radius: 20px;
   border: 1px solid white;
   padding-bottom: 40px;
@@ -124,7 +126,7 @@ body{
   }
 .contact{
   height: auto;
-  background-color: #ADD8E6;
+  background-color: #f4fafc;
 }
 
  .footer{
@@ -135,6 +137,12 @@ body{
   font-size: 30px;
   color: #007aff;
  }
+ .foot-end{
+  background-color: hwb(318 19% 10% / 0.827);
+  color: white;
+ }
+
+
 /* ================================median query================================================ */
 @media only screen and (min-width: 768px) and (max-width: 991.98px){
   
@@ -281,13 +289,7 @@ body{
     overflow: hidden;
   }
 
-  .services-container{
-    /* height: 1500px; */
-  }
-
-  .portfolio{
-    
-  }
+  
   .contact{
     padding-top: 10px;
   }
