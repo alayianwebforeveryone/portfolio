@@ -1,4 +1,8 @@
 
+body{
+  background-color: #8FAED9;
+}
+
 .menu{
  
   height: 50px;
@@ -46,7 +50,8 @@
   .services{
     border: 1px solid white;
     border-radius: 20px;
-    background-color: #7FFFD4;
+    color: white;
+    background-color: hwb(244 55% 18%);
   }
 .services-icon{
   height: 60px;
@@ -80,7 +85,7 @@
 
 .portfolio{
   /* height: 700px; */
-  background-color: #a0cbe7;
+  background-color: hwb(244 55% 18%);
   border-radius: 20px;
   border: 1px solid white;
   padding-bottom: 40px;
